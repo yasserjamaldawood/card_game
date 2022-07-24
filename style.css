@@ -1,0 +1,88 @@
+body{
+    
+    background-color:  #042d7b;
+   
+
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+ .card{
+    background-color: #045CB0;
+     width: 180px;
+     height: 180px;
+     margin-top: 10px;
+     margin-left: 10px;
+     text-align: center;
+     line-height: 180px;
+     font-size: 300%;
+     border-radius: 8%;
+ }
+ i{
+     color: white;
+ }
+ .icon{
+     visibility: hidden;
+     width: 180px;
+     height: 180px;
+     background-color: #ffcc32;
+     border-radius: 8%;
+ }
+
+ .hint{
+     margin-top: 3%; 
+     margin-left: 2%;
+     padding: 0.7%;
+     background-color: #fe9a08;
+     font-size: 120%;
+     border-radius: 7px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     border: none;
+     font-weight: bold;
+     color: #fde790;
+     text-align: center;
+     width: 100px;
+     height: 40px;
+
+ }
+ .start{
+    margin-top: 3%;
+    margin-left: 3%;
+    padding: 0.7%;
+    background-color: #28A745;
+    font-size: 120%;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    font-weight: bold;
+    color: #fde790;
+     text-align: center;
+     width: 134px;
+     height: 40px;
+ }
+ .heartContainer{
+    display: inline;
+ }
+ .heart{
+     color: red;
+     margin-left: 1%;
+ }
+ .barContainer{
+    width: 450px;
+    margin: auto;
+    /* background-color: #00ff80; */
+    padding-bottom: 1%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #045CB0;
+    margin-bottom: 20px;
+
+ }
+ 
+ 
